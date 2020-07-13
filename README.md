@@ -19,4 +19,4 @@ So for the 9th cell in the table on the Wikipedia page, the value of the Borough
 There are different website scraping libraries and packages in Python. One of the most common packages is BeautifulSoup and I'm using it in this project. 
 Package's main documentation page: *http://beautiful-soup-4.readthedocs.io/en/latest/*
 
-The missing maps:
+The missing maps were added as images.
