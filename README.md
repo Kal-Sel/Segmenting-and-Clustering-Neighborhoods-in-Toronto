@@ -1,16 +1,15 @@
 # SegmentingAndClusteringNeighborhoodsInToronto
-
-**Introduction**
-In this project I will explore, segment, and cluster the neighborhoods in the city of Toronto. The neighborhood data was not readily available on the internet.
+ 
+In this project I was exploring, segmenting, and clustering the neighborhoods in the city of Toronto. The neighborhood data was not readily available on the internet.
 
 For the Toronto neighborhood data, exists the following Wikipedia page: *https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M*
 
-Once the data is in a structured format, I can start the analysis to explore and cluster the neighborhoods in the city of Toronto. 
-I will build the code to scrape the following Wikipedia page: *https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M*, 
+Once the data was in a structured format, I started the analysis to explore and cluster the neighborhoods in the city of Toronto. 
+I build the code to scrape the following Wikipedia page: *https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M*, 
 in order to obtain the data that is in the table of postal codes and to transform the data into a pandas dataframe.
 
-The dataframe consists of three columns: PostalCode, Borough, and Neighborhood. I will only process the cells that have an assigned borough. 
-I ignore cells with a borough that is Not assigned. More than one neighborhood could exist in one postal code area. 
+The dataframe consists of three columns: PostalCode, Borough, and Neighborhood. I was only processing the cells that had an assigned borough. 
+I ignored cells with a borough that were not assigned. More than one neighborhood could exist in one postal code area. 
 For example, in the table on the Wikipedia page, you will notice that M5A is listed twice and has two neighborhoods: Harbourfront and Regent Park. 
 These two rows were combined into one row with the neighborhoods separated with a comma. 
 If a cell has a borough but a Not assigned neighborhood, then the neighborhood will be the same as the borough. 
